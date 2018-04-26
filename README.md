@@ -1,3 +1,16 @@
+[This repository](https://github.com/kylebarron/thejsway) adds a `Makefile` to
+make a PDF book and an `mkdocs.yml` file to view the book in the browser. The
+former depends on [Pandoc](https://pandoc.org/index.html); the latter depends on
+[`mkdocs`](mkdocs.org) and
+[`mkdocs-material`](https://squidfunk.github.io/mkdocs-material/). If you have
+Python installed, the latter two can be installed with
+
+```bash
+$ pip install mkdocs mkdocs-material
+```
+
+To make the book, clone this repository and run `make`. To view the web book, run `mkdocs serve` and go to `localhost:8000` in your browser.
+
 # The JavaScript Way
 
 A modern introduction to an essential language.
