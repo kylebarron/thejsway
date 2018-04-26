@@ -1,0 +1,85 @@
+# Project Information
+site_name: The JavaScript Way
+site_description: 'A modern introduction to an essential language'
+site_author: 'Baptiste Pesquet'
+site_url: 'https://kylebarron.github.io/medicare-documentation/'
+
+docs_dir: 'manuscript'
+site_dir: 'site'
+
+# Repository
+repo_name: 'thejsway'
+repo_url: 'https://github.com/kylebarron/thejsway'
+edit_uri: 'blob/master/manuscript/'
+
+# Layout
+pages:
+    - Introduction:
+        - 'About this book': intro01.md
+        - 'Welcome to programming': intro02.md
+        - 'Introducing JavaScript': intro03.md
+        - 'Environment setup': intro04.md
+    - Learn to Code Programs:
+        - '3, 2, 1... Code!': chapter01.md
+        - 'Play with variables': chapter02.md
+        - 'Add conditions': chapter03.md
+        - 'Repeat statements': chapter04.md
+        - 'Write functions': chapter05.md
+        - 'Create your first objects': chapter06.md
+        - 'Store data in arrays': chapter07.md
+        - 'Work with strings': chapter08.md
+        - 'Understand object-oriented programming': chapter09.md
+        - 'Discover functional programming': chapter10.md
+        - 'Project: a social news program': chapter11.md
+    - Create interactive web pages:
+        - "What's a web page?": chapter12.md
+        - 'Discover the DOM': chapter13.md
+        - 'Traverse the DOM': chapter14.md
+        - 'Modify page structure': chapter15.md
+        - 'React to events': chapter16.md
+        - 'Manipulate forms': chapter17.md
+        - 'Animate elements': chapter18.md
+        - 'Project: a social news web page': chapter19.md
+    - Build web applications:
+        - 'Web development 101': chapter20.md
+        - 'Query a web server': chapter21.md
+        - 'Use web APIs': chapter22.md
+        - 'Send data to a web server': chapter23.md
+        - 'Discover Node.js': chapter24.md
+        - 'Create a web server': chapter25.md
+        - 'Project: a social news web app': chapter26.md
+    - Conclusion:
+        - 'Summary and perspectives': concl01.md
+        - 'Acknowledgments': concl02.md
+    - Appendices:
+        - 'Style guide': appendix02.md
+
+# Theme
+theme:
+    feature:
+        tabs: true
+    logo:
+        icon: 'local_library'
+    name: 'material'
+    language: 'en'
+    palette:
+        primary: 'orange'
+        accent:  'light blue'
+    font:
+        text: 'Nunito Sans'
+        # code: 'Roboto Mono'
+        code: 'Fira Code'
+
+markdown_extensions:
+    - admonition
+    - codehilite:
+        linenums: true
+    - footnotes
+    - meta
+    - pymdownx.arithmatex
+    - pymdownx.details
+    - pymdownx.smartsymbols
+    - pymdownx.tasklist(custom_checkbox=true)
+    - pymdownx.tilde
+    - toc:
+        permalink: true
